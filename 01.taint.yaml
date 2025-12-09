@@ -11,14 +11,14 @@ spec:
   selector:
     # these labels are used to select pods
     matchLabels:
-      purpose: headless-svc-demo 
-      project: roboshop 
+      purpose: headless-svc-demo
+      project: roboshop
   # pod definition
   template:
     metadata:
       labels:
-       # purpose: dp-demo
-        purpose: headless-svc-demo 
+        # purpose: dp-demo
+        purpose: headless-svc-demo
         project: roboshop
     spec:
       containers:
