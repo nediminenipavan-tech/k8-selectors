@@ -12,8 +12,8 @@ spec:
             operator: In
             values:
             - us-east-1f
-          - matchExpressions:
-            - key: disktype
+        - matchExpressions:
+          - key: disktype
               operator: In
               values:
               - ssd 
