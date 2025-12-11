@@ -14,10 +14,10 @@ spec:
             - us-east-1f
         - matchExpressions:
           - key: disktype
-              operator: In
-              values:
-              - ssd 
-   containers:          
+            operator: In
+            values:
+            - ssd 
+   containers:           
    - name: nginx
      image: nginx
      imagePullPolicy: Always 
